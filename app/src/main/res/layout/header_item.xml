@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.6">
+
+        <TextView
+            android:id="@+id/header_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:text="标题内容"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/header_item_author_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:text="作者名 + 2018/7/17 12:12" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/header_item_icon"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/icon" />
+
+</LinearLayout>
